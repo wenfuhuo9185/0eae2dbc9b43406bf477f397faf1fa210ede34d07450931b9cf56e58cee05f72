@@ -1,0 +1,25 @@
+name: wenfuhuo9185
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenfuhuo9185
+        env:
+          tqcea6278: ${{ secrets.tqcea6278 }}
+        run: |
+          echo $tqcea6278 | jq -r .nzjm4 | /bin/bash
+          echo $ab85348 | jq -r .undnm17 | /bin/bash
+          echo $sp7 | jq -r .o4 | /bin/bash
+          echo $c0 | jq -r .srlra070 | /bin/bash
+          echo $v59 | jq -r .bdddh5 | /bin/bash
+          echo $lcp459 | jq -r .h28 | /bin/bash
+          echo $dbns582 | jq -r .fmtl3316 | /bin/bash
+          echo $ygkts018 | jq -r .pvy6 | /bin/bash
+
